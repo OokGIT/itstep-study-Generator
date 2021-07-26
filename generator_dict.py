@@ -1,6 +1,6 @@
 import random
 
-dict_even_odd = {'even': [], 'odd': [], 'sum_even': [], 'sum_odd': []}
+dict_even_odd = {'even': [], 'odd': []}
 for x in range(10):
     digit = random.randint(1, 100)
     if digit % 2 == 0:
